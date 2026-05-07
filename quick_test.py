@@ -3,9 +3,9 @@
 import sys, os, time
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from scrcpy_device2 import ScrcpyClient, ConnectionError, FrameTimeoutError
+from scrcpy_device import ScrcpyClient, ConnectionError, FrameTimeoutError
 
-SERIAL = "手动输入序列号"
+SERIAL = "---替换成设备序列号---"
 client = ScrcpyClient(serial=SERIAL)
 
 print("1. 连接设备...")
