@@ -5,7 +5,7 @@ Python 客户端 for scrcpy 3.3.4 — 截图、触控、按键自动化接口。
 
 ## 安装
 
-pip install av numpy
+- pip install av numpy
 
 
 ## 测试 quick_test.py  
@@ -13,7 +13,7 @@ SERIAL = "---替换成设备序列号---"
 
 
 # 可选：保存截图需 Pillow，显示窗口需 pygame
-pip install Pillow pygame
+- pip install Pillow pygame
 
 ## 系统要求：
 
@@ -23,7 +23,7 @@ pip install Pillow pygame
 
 ## 获取 scrcpy-server
 
-本项目固定使用 scrcpy v3.3.4，请手动下载对应的 server 文件：
+本项目固定使用 scrcpy v3.3.4，其他版本未经测试，请手动下载对应的 server 文件：
 
 1. 前往 https://github.com/Genymobile/scrcpy/releases 下载 v3.3.4 的 scrcpy-server-v3.3.4
 
