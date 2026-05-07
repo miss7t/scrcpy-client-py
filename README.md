@@ -7,6 +7,10 @@ Python 客户端 for scrcpy 3.3.4 — 截图、触控、按键自动化接口。
 
 pip install av numpy
 
+
+## quick_test.py  --测试用
+
+
 # 可选：保存截图需 Pillow，显示窗口需 pygame
 pip install Pillow pygame
 
