@@ -1,0 +1,4 @@
+av
+numpy
+Pillow          # 可选，用于保存截图
+pygame          # 可选，用于 display 窗口
